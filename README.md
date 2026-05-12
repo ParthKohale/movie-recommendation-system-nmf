@@ -50,9 +50,8 @@ By leveraging Non-Negative Matrix Factorization, the system learns hidden relati
 # Dataset Information
 
 Dataset files included:
-
-* `TMDB_movie_dataset_v11.csv`
-* `tfidf_matrix.npz`
+* Has been imported from kaggle using their kagglehub library.
+* `TMDB_movie_dataset.csv`
 
 The dataset contains:
 
@@ -69,10 +68,6 @@ The TF-IDF matrix was generated from movie textual information and used as input
 
 ```bash id="0shw9n"
 nmf-movie-recommendation-system/
-│
-├── data/
-│   ├── TMDB_movie_dataset_v11.csv
-│   └── tfidf_matrix.npz
 │
 ├── notebooks/
 │   ├── Movie_Recommendation_System_using_NMF.ipynb
